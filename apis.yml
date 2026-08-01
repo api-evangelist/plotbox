@@ -1,7 +1,11 @@
 aid: plotbox
 name: PlotBox
-description: PlotBox is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PlotBox is a deathcare management platform for cemeteries, crematories, and funeral homes.
+  Founded in Northern Ireland, its cloud SaaS combines records management, interactive digital cemetery
+  mapping, financial and trust-fund management, work orders, scheduling, and family-facing records portals
+  to help deathcare providers run compliant, efficient operations. PlotBox serves over 2,000 facilities
+  globally, is hosted on Microsoft Azure, and holds ISO 9001 and ISO 27001 certifications. The company
+  does not currently publish a public developer API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/plotbox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +13,54 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://plotbox.com/hubfs/Imported_Blog_Media/PlotBox%20Logo%20-%20cropped-1.png
 tags:
 - Company
+- Deathcare
+- Cemetery Management
+- Funeral Homes
+- Crematory
+- SaaS
+- GIS Mapping
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plotbox-domain-security.yml
 - type: Website
-  url: https://plotbox.io
+  url: https://plotbox.com
+- type: Blog
+  url: https://plotbox.com/blog
+- type: Support
+  url: https://plotbox.com/customer-support
+- type: Pricing
+  url: https://plotbox.com/packages-and-pricing
+- type: PrivacyPolicy
+  url: https://plotbox.com/hubfs/PlotBox%20Privacy%20Policy%2023%20Feb%202025.docx.pdf
+- type: Compliance
+  url: https://plotbox.com/cloud-security
+- type: TrustCenter
+  url: security/plotbox-trust-center.yml
