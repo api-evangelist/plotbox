@@ -37,7 +37,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://plotbox.com/hubfs/Imported_Blog_Media/PlotBox%20Logo%20-%20cropped-1.png
 tags:
 - Company
@@ -67,6 +67,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://plotbox.com/blog/rss.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/plotbox-domain-security.yml
 - type: Website
